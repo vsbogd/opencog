@@ -21,7 +21,8 @@ class shell(opencog.cogserver.Request):
         self.run_shell(atomspace)
 
     def run_shell(self,  atomspace):
-        from opencog.atomspace import types, Atom, Handle, TruthValue
+        from opencog.atomspace import types, Atom, Handle
+        from opencog.type_constructors import TruthValue
         namespace = locals().copy()
         try: 
             import threading

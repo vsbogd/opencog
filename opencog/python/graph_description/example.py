@@ -7,7 +7,8 @@ Warning to run this you need to checkout the obscolete-Python-PLN tag.
 
 """
 
-from opencog.atomspace import AtomSpace, TruthValue, types, get_type_name
+from opencog.atomspace import AtomSpace, types, get_type_name
+from opencog.type_constructors import TruthValue
 from opencog.scheme_wrapper import load_scm, scheme_eval, scheme_eval_h, __init__
 import dot
 

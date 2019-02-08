@@ -2,7 +2,7 @@
 from __future__ import print_function
 from pprint import pprint
 # from pln.examples.deduction import deduction_agent
-from opencog.atomspace import types, AtomSpace, TruthValue
+from opencog.atomspace import types, AtomSpace
 from opencog.cogserver_type_constructors import *
 from agents.hobbs import HobbsAgent
 from agents.dumpAgent import dumpAgent

@@ -1,7 +1,8 @@
 __author__ = 'keyvan'
 
 from rdflib import Graph
-from opencog.atomspace import AtomSpace, TruthValue
+from opencog.atomspace import AtomSpace
+from opencog.type_constructors import TruthValue
 
 DEFAULT_TV = TruthValue(1,1)
 

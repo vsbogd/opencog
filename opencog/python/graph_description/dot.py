@@ -7,7 +7,8 @@ Refer to README.md before use.
 
 import uuid
 from graphviz import Digraph
-from opencog.atomspace import AtomSpace, TruthValue, types, get_type_name
+from opencog.atomspace import AtomSpace, types, get_type_name
+from opencog.type_constructors import TruthValue
 
 __author__ = 'Cosmo Harrigan'
 

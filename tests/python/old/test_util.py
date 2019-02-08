@@ -8,8 +8,9 @@ doctest.testmod(util)
 from unittest import TestCase
 from mock import patch
 
-from opencog.atomspace import AtomSpace, TruthValue, Atom, Handle
+from opencog.atomspace import AtomSpace, Atom, Handle
 from opencog.atomspace import types, is_a, get_type, get_type_name
+from opencog.type_constructors import TruthValue
 
 class MiscUtilTest(TestCase):
     # we only need to test supporting functions without doctests

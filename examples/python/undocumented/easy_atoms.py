@@ -1,4 +1,5 @@
-from opencog.atomspace import AtomSpace, TruthValue, Atom
+from opencog.atomspace import AtomSpace, Atom
+from opencog.type_constructors import TruthValue
 from opencog.atomspace import types as t
 
 a = AtomSpace()

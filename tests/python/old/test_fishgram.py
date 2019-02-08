@@ -6,8 +6,9 @@ from mock import patch
 import os
 import tempfile
 
-from opencog.atomspace import AtomSpace, TruthValue, Atom, Handle
+from opencog.atomspace import AtomSpace, Atom, Handle
 from opencog.atomspace import types, is_a, get_type, get_type_name
+from opencog.type_constructors import TruthValue
 import opencog.util
 
 import fishgram, tree, adaptors

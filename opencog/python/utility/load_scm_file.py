@@ -4,7 +4,8 @@
 # @author Dingjie.Wang
 # @version 1.0
 # @date 2012-08-04
-from opencog.atomspace import types, TruthValue, AtomSpace
+from opencog.atomspace import types, AtomSpace
+from opencog.type_constructors import TruthValue
 from viz_graph import Viz_Graph
 from types_inheritance import name_type_dict, is_a
 from m_util import Logger, dict_sub

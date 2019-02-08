@@ -1,4 +1,5 @@
-from opencog.atomspace import AtomSpace, types, Atom, Handle, TruthValue, types as t
+from opencog.atomspace import AtomSpace, types, Atom, Handle, types as t
+from opencog.type_constructors import TruthValue
 import opencog.cogserver
 import random
 from time import sleep

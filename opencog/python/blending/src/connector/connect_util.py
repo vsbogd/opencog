@@ -1,8 +1,7 @@
 import itertools
 from copy import copy
 
-from opencog.atomspace import TruthValue
-from opencog.type_constructors import types
+from opencog.type_constructors import types, TruthValue
 from opencog.logger import log
 
 from blending.src.connector.equal_link_key import link_to_keys

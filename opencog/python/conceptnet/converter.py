@@ -7,7 +7,8 @@ __author__ = 'Amen Belayneh'
 
 import sys
 import math
-from opencog.atomspace import TruthValue, types, get_type, AtomSpace
+from opencog.atomspace import types, get_type, AtomSpace
+from opencog.type_constructors import TruthValue
 from reader import ConceptNetReader
 from writer import ConceptNetWriter
 

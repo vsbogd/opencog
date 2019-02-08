@@ -2,7 +2,8 @@ from utility.generic import subsets_of_len_two
 
 __author__ = 'keyvan'
 
-from opencog.atomspace import AtomSpace, types, TruthValue
+from opencog.atomspace import AtomSpace, types
+from opencog.type_constructors import TruthValue
 from random import randrange
 
 _default_tv = TruthValue(1, 1)

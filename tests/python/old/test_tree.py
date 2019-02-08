@@ -1,8 +1,9 @@
 from unittest import TestCase
 
 try:
-    from opencog.atomspace import AtomSpace, TruthValue, Atom #, Handle
+    from opencog.atomspace import AtomSpace, Atom #, Handle
     from opencog.atomspace import types, get_type, get_type_name # is_a
+    from opencog.type_constructors import TruthValue
 except ImportError:
     from atomspace_remote import AtomSpace, TruthValue, Atom #, Handle
     from atomspace_remote import types, get_type, get_type_name # is_a

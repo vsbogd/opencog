@@ -1,6 +1,6 @@
 __author__ = 'Keyvan'
 
-from opencog.atomspace import TruthValue
+from opencog.type_constructors import TruthValue
 
 DEFAULT_TRUTH_VALUE = TruthValue(1, 1)
 

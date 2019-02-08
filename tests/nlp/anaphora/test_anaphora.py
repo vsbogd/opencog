@@ -2,8 +2,9 @@ __author__ = 'Hujie'
 
 import unittest
 
-from opencog.atomspace import AtomSpace, TruthValue, Atom
+from opencog.atomspace import AtomSpace, Atom
 from opencog.atomspace import is_a, get_type, get_type_name
+from opencog.type_constructors import TruthValue
 from opencog.scheme_wrapper import load_scm, scheme_eval, scheme_eval_h, __init__
 from opencog.cogserver_type_constructors import types
 

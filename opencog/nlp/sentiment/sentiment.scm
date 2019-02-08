@@ -11,7 +11,8 @@
 (use-modules (opencog logger))
 
 (python-eval "
-from opencog.atomspace import AtomSpace, types, TruthValue
+from opencog.atomspace import AtomSpace, types
+from opencog.type_constructors import TruthValue
 
 have_sentiment_analysis = True
 try:

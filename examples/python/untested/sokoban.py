@@ -15,8 +15,9 @@ Use levels from http://www.sourcecode.se/sokoban/levels.php
 __author__ = 'keyvan-m-sadeghi'
 
 from xml.dom.minidom import parseString
-from opencog.atomspace import AtomSpace, TruthValue, Atom
+from opencog.atomspace import AtomSpace, Atom
 from opencog.atomspace import types
+from opencog.type_constructors import TruthValue
 
 def add_socoban_level_to_atomspace_from_file(atomspace, file_path, level_index):
     _add_globals_to_atomspace(atomspace)

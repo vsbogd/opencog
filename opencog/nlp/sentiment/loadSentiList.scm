@@ -15,7 +15,8 @@
 ; -----------------------------------------------------------------------
 
 (python-eval "
-from opencog.atomspace import AtomSpace, types, TruthValue
+from opencog.atomspace import AtomSpace, types
+from opencog.type_constructors import TruthValue
 import sys
 import os
 

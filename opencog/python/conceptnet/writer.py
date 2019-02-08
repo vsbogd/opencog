@@ -14,7 +14,7 @@ class ConceptNetWriter:
         if self.output_file_type == "py":
             self.output_file.write(
                 'import opencog.atomspace\n' +
-                'from opencog.atomspace import TruthValue\n' +
+                'from opencog.type_constructors import TruthValue\n' +
                 '\n'
                 'def load_concept_net(a, types):\n'
             )

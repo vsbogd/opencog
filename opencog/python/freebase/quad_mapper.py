@@ -1,6 +1,7 @@
 __author__ = 'keyvan&ramin'
 
-from opencog.atomspace import AtomSpace, TruthValue
+from opencog.atomspace import AtomSpace
+from opencog.type_constructors import TruthValue
 import quad_reader
 
 DEFAULT_TV = TruthValue(1,1)

@@ -1,5 +1,6 @@
 try:
-    from opencog.atomspace import AtomSpace, types, Atom, TruthValue, get_type_name
+    from opencog.atomspace import AtomSpace, types, Atom, get_type_name
+    from opencog.type_constructors import TruthValue
     import opencog.cogserver
 except ImportError:
     from atomspace_remote import AtomSpace, types, Atom, TruthValue, get_type_name

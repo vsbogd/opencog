@@ -1,7 +1,8 @@
 # You can test at the cogserver shell, using
 # import adaptors; reload(adaptors); import fishgram; reload(fishgram);from fishgram import *; fish = FishgramMindAgent(); fish.run(a)
 try:
-    from opencog.atomspace import AtomSpace, types, Atom, TruthValue, types as t
+    from opencog.atomspace import AtomSpace, types, Atom, types as t
+    from opencog.type_constructors import TruthValue
     import opencog.cogserver
 except ImportError:
     from atomspace_remote import AtomSpace, types, Atom, TruthValue, types as t
